@@ -1,0 +1,14 @@
+#img-bg-mini{
+background-image: url("https://i.imgur.com/wODwbAa.png");
+min-height: 695px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#img-bg{
+    background-image: url("https://i.imgur.com/mKtylDE.jpg");
+    min-height: 695px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
