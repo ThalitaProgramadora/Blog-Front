@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.prod';
+import { AuthService } from '../service/auth.service';
 
 @Component({
   selector: 'app-inicio',
@@ -14,6 +15,7 @@ export class InicioComponent implements OnInit {
   ) { }
 
   ngOnInit(){
+    window.scroll(0,0)
     if(environment.token == ''){
        alert('Sua seção expirou. Por favor faça o login novamente!')
        this.router.navigate(['/login'])
